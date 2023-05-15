@@ -1,0 +1,138 @@
+.button2 {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    border: none;
+    background-color: #00ff99;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .button2:hover {
+    background-color: #009966;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .button2:hover::before {
+    left: 0;
+  }
+  
+  .button2:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  body {
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: 'Bangers',cursive;
+    font-size: 10mm;
+    letter-spacing: 0.5mm;
+}
+  table {
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+	  margin-right: auto;
+}
+  th{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+  td{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #fff;
+    font-size: 6mm;
+}
+  th {
+    background-color: #444;
+}
+  tr:nth-child(even) {
+    background-color: #2f2f2f;
+}
+  .button {
+    background-color: #00ff99;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+      }
+  .table-mod{
+    border:none;
+    background-color: #1f1f1f;
+    margin-top:37mm;
+}
+  .tr-mod{
+    text-align: center;
+    padding: 10px;
+    font-size: 6mm;
+    border:none;
+}
+  .tr-mod:nth-child(even) {
+    background-color: #1f1f1f;
+}
+  .td-mod{
+    text-align: center;   
+    font-size: 6mm;
+    border:none;
+}
+  .td-menu{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #fff;
+    font-size: 6mm;
+}
+  .td-menu:hover{
+    background-color: rgb(100, 100, 100);
+    transform: translateY(5px);
+    cursor: pointer;
+}
+  a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: inherit;
+}
+  .th-mod{
+    background-color: #444;
+    text-align: center;
+}
+  button{
+    font-size: 100%;
+    font-family: inherit;
+    letter-spacing: inherit;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 6mm;
+    background-color: inherit;
+    color: white;
+}
+  form{
+    all:unset;
+    text-align: center;
+}
+  .input-hidden{
+    all:unset;
+}
+  input{
+    margin-left:10mm;
+}
